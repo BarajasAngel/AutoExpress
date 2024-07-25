@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel-inner img {
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7); /* Ofusca la imagen */
+}
+
+@media (max-width: 700px) {
+    .carousel-inner img {
+        height: 20rem;
+    }
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad del texto */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+h2 {
+    margin-top: 1rem;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+}
+.highlight-part {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: small;
+}
+.highlight-part:hover {
+    opacity: 0.7;
+}
+
+.part1 {
+    background-color: rgba(241, 42, 42, 0.7);
+    top: 23%;
+    left: 13%;
+    width: 7%;
+    height: 10%;
+    border-radius: 75%;
+}
+
+.part2 {
+    background-color: rgba(162, 180, 58, 0.5);
+    top: 50%;
+    left: 33%;
+    width: 7%;
+    height: 10%;
+    border-radius: 75%;
+}
+
+.part3 {
+    background-color: rgba(11, 203, 252, 0.644);
+    top: 60%;
+    left: 60%;
+    width: 7%;
+    height: 10%;
+    border-radius: 75%;
+}
